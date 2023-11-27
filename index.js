@@ -22,7 +22,7 @@ exports.handler = async (event, context) => {
       },
       Subject: { Data: "Form Submission" },
     },
-    Source: "contacto@fasty.fit", // Your verified SES sender email address.
+    Source: "ejemplo@verificado.com", // Your verified SES sender email address.
   };
 
   try {
